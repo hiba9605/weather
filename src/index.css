@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("./images/background.webp");
+  height: 80vh;
+  width: 100%;
+}
+.weather{
+  background: linear-gradient(#221738,#3c7055);
+  height: 500px;
+  width: 500px;
+  margin-left: 500px;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  border: solid #3c7055;
+  border-radius: 10px;
+}
+.inputarea input{
+  border: none;
+  padding: 12px 25px;
+  background-color: #3c7055;
+  color: white;
+  font-size: 18px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 12px;
+  outline: 0;
+  margin-top: 20px;
+  width: 350px;
+}
+.inputarea button{
+  height: 50px;
+  width: 50px;
+  display: transparent;
+  background-color: #3c7055;
+  border-radius: 15px;
+}
+.inputarea button i{
+  color: white;
+  width: 20px;
+}
+::placeholder{
+  color: white;
+}
+.weatherinfo .icon{
+  margin-top: 20px;
+  width: 170px; 
+}
+.weatherinfo h1{
+  font-size: 70px;
+  font-weight: 500;
+  margin-top: -10px;
+}
+.weatherinfo h2{
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.weatherdetail{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-top: 50px;
+}
+.weatherdetail .humidity{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.weatherdetail .humidity img{
+  width: 45px;
+  margin-right: 10px;
+}
+.humi .wind{
+  font-size: 27px;
+}
+.humi p{
+  margin: 0;
+}
+.weatherdetail .wind img{
+  width: 45px;
+  margin-right: 10px;
+}
+.weatherdetail .wind{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.win p{
+  margin: 0;
+}
+
